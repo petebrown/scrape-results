@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "scrape-results"
+version = "0.1.0"
+description = ""
+authors = ["Pete Brown <15838790+petebrown@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "scrape_results"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+beautifulsoup4 = "^4.11.2"
+pandas = "^1.5.3"
+selenium = "^4.8.0"
+webdriver-manager = "^3.8.5"
+requests = "^2.28.2"
+jupyter = "^1.0.0"
+lxml = "^4.9.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
